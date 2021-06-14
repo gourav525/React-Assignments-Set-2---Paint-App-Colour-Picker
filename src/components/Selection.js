@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 
 
-const Selection = props =>{
+const Selection = (props) =>{
     const {key,applyColor} = props;
     let[background,setBackground] = useState({background:" "})
 
@@ -11,3 +11,5 @@ const Selection = props =>{
         </div>
     )
 }
+
+export default Selection;
